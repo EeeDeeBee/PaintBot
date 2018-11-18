@@ -1,0 +1,3 @@
+# Cron entry that runs the bot
+
+0 20 * * 5 python3 /home/jac/paintbot/paintbot.py
