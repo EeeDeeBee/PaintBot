@@ -34,8 +34,8 @@ async def on_ready():
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
-    await client.send_message(client.get_channel('513494350701920270'), '@ActiveRunners Race in 24 hours')
+    await client.send_message(client.get_channel('513511096993185804'), '<@&513511219475513355> Race in 24 hours')
     await client.close()
 print('------')
 
-client.run('NTEzNDkyOTI0MTQ3Njk1NjI3.DtIzNw.A_8PL_-OqArXfvUuNtRBndno77o')
+client.run('token')
