@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+from secret import token
+
 #import random
 #import datetime
 
@@ -38,4 +40,4 @@ async def on_ready():
     await client.close()
 print('------')
 
-client.run('token')
+client.run(token)
